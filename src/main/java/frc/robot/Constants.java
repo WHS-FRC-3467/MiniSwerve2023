@@ -34,13 +34,13 @@ public final class Constants {
     public static final class OffsetConstants {
         // Module Offsets
         // Mod 0
-        public static final double MOD_0_OFFSET = 290.7;
+        public static final double MOD_0_OFFSET = 220.7;
         // Mod 1
-        public static final double MOD_1_OFFSET = 74.4;
+        public static final double MOD_1_OFFSET = 218.1;
         // Mod 2
-        public static final double MOD_2_OFFSET = 286.2;
+        public static final double MOD_2_OFFSET = 88.9;
         // Mod 3
-        public static final double MOD_3_OFFSET = 209.0;
+        public static final double MOD_3_OFFSET = 178.1;
 
     }
 

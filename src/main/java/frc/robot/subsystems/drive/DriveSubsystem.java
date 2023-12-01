@@ -38,7 +38,8 @@ public class DriveSubsystem extends SubsystemBase {
     public SwerveAutoBuilder m_autoBuilder;
 
     public DriveSubsystem() {
-        m_gyro = new Pigeon2(CanConstants.PIGEON2, "drive");
+        //m_gyro = new Pigeon2(CanConstants.PIGEON2, "drive");
+        m_gyro = new Pigeon2(CanConstants.PIGEON2);
         m_gyro.configFactoryDefault();
         zeroGyro();
         m_field = new Field2d();
